@@ -80,6 +80,7 @@ export const getAllUsers = async (req, res) => {
   } catch (error) {
     sendErrorResponse(res, error.message);
   }
+  
 };
 
 export const loginHandler = async (req, res) => {
