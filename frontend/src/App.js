@@ -8,6 +8,7 @@ import Jobs from "./App/Jobs/Jobs";
 const App = () => {
   return (
     <Routes>
+    
       <Route exact path="/" element={<Home />} />
       <Route exact path="/about" element={<About />} />
       <Route exact path="/contact" element={<Contact />} />
